@@ -1,0 +1,107 @@
+/* Main styles for the survey form */
+
+body {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.4;
+	background: #373E40;
+	color: #fff;
+}
+
+h1 {
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 749px) {
+	#description {
+		margin-bottom: 30px;
+	}
+}
+
+form {
+	max-width: 600px;
+	color: #ffffff;
+	line-height: 1.7;
+	margin: 0 auto 0 auto;
+	padding: 30px;
+	border-radius: 30px;
+	background: rgba( 255, 255, 255, 0.25 );
+	backdrop-filter: blur( 4.0px );
+	-webkit-backdrop-filter: blur( 4.0px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+input, button, select {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+label {
+	margin-left: 5px;
+}
+
+button {
+	width: 100%;
+	background: none;
+	border: none;
+}
+
+@media (max-width: 470px) {
+	form {
+		max-width: 100%;
+	}
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 30px;
+}
+
+.input-radio, .input-check {
+	display: inline-block;
+}
+
+
+#description {
+	text-align: center;
+}
+
+#comments {
+	min-height: 120px;
+	width: 100%;
+	padding: 5px;
+	border-radius: 30px;
+	resize: vertical;
+	border: none;
+}
+
+@media (max-width: 749px) {
+	#comments {
+		width: 100%;
+	}
+}
+
+#submit {
+	display: block;
+	width: 100%;
+	padding: 0.50rem;
+	background: #008FF5;
+	color: #ffffff;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+@media (max-width: 749px) {
+	#submit {
+		width: 100%;s
+	}
+}
